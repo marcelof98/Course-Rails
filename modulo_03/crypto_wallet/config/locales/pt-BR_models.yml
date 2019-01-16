@@ -1,0 +1,27 @@
+"pt-BR":
+  activerecord:
+    models:
+      coin:
+        one: "Moeda"
+        other: "Moedas"
+      mining_type:
+        one: "Tipo de Mineração"
+        other: "Tipos de Mineração"
+
+    attributes:
+      coin:
+        description: "Descrição"
+        acronym: "Acrônimo"
+        url_image: "URL da imagem"
+        symbol: "Símbolo"
+        mining_type: "Tipo de Mineração"
+        mining_type_acronym: "Acrônimo Tipo de Mineração"
+        mining_type_id: ID Tipo de Mineração
+        updated_at: "Atualizado em"
+        created_at: "Criado em"
+      mining_type:
+        description: "Descrição"
+        acronym: "Acrônimo"
+        updated_at: "Atualizado em"
+        created_at: "Criado em"
+      # Will translate coin and mining_type attributes
